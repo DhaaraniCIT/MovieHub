@@ -1,0 +1,136 @@
+<div>
+  <div class="root">
+    <div class="header fixed-top" (window:scroll)="onWindowScroll($event);" [ngClass]="(headerColor_bk_white == true) ? 'header-color' : 'text-light'">
+      <app-header></app-header>
+    </div>
+    <div id="banner" class="sofia-pro-font">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+        <div class="carousel-inner">
+          <div class="carousel-item cover-image-cropper active">
+            <img src="../../../assets/kw.jpg"
+              class="d-block w-100" alt="..." />
+            <div class="card-img-overlay d-md-block d-none p-5 mx-5 text-light mt-lg-n3">
+              <h1 class="font-weight-bolder" style="font-size:3rem;">
+                <b>MovieHub</b> 
+                <br />The Hub of Movies
+              </h1><br />
+            </div>
+            <div class="card-img-overlay d-lg-none d-md-none my-5 text-light mt-lg-n3">
+              <h1 class="">
+                <b>MovieHub</b> 
+                <br />The Hub of Movies
+              </h1><br />
+            </div>
+          </div>
+          <div class="carousel-item cover-image-cropper ">
+            <img src="../../../assets/kw.jpg" class="d-block w-100" alt="..." />
+            <div class="d-none d-md-block card-img-overlay p-5 mx-5 text-light mt-lg-n3">
+              <h1 class="font-weight-bolder" style="font-size:3rem; ">
+                Grap Info about 
+                <br />your favorite movies
+              </h1><br />
+            </div>
+            <div class="card-img-overlay d-lg-none d-md-none my-5 text-light mt-lg-n3">
+              <h1 class="">
+                Grap Info about 
+                <br />your favorite movies
+              </h1><br />
+            </div>
+          </div>
+          <div class="carousel-item cover-image-cropper">
+            <img src="../../../assets/kw.jpg" class="d-block w-100" alt="..." />
+            <div class="d-none d-md-block card-img-overlay p-5 mx-5 text-light mt-lg-n3">
+              <h1 class="font-weight-bolder text-light" style="font-size:3rem; ">
+                Know about the
+                <br />New Movies 
+              </h1><br />
+            </div>
+            <div class="card-img-overlay d-lg-none d-md-none my-5 text-light mt-lg-n3">
+              <h1 class="">
+                Know about the
+                <br />New Movies 
+              </h1><br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="second-Section" id="about-us">
+    <div class="row ml-0 mr-0 d-flex align-items-center ">
+      <div class="col-sm-6 text-center pt-4 pb-4">
+        <h1>About Us</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="col-sm-6 pl-0 pr-0 text-center">
+        <img src="../../../assets/movie-logo.png" class="img-fluid" alt="" srcset="">
+      </div>
+    </div>
+  </div>
+  <div class="thrid-section" id="how-it-works">
+    <h1>How To know about your favorite movies</h1>
+    <div class="row ml-0 mr-0">
+      <div class="col-sm-6 d-flex justify-content-center">
+        <div class="shadow card" style="width:400px">
+          <span class="material-icons">
+            login
+          </span>
+          <div class="card-body text-center">
+            <h4 class="card-title">Sign In</h4>
+            <p class="card-text">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 d-flex justify-content-center">
+        <div class="shadow card" style="width:400px">
+          <span class="material-icons">
+            view_list
+          </span>
+          <div class="card-body text-center">
+            <h4 class="card-title">View Movies LIst</h4>
+            <p class="card-text">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer bg-dark text-light">
+    <div class="container">
+      <div class="row ml-0 mr-0">
+        <div class="col-sm-4">
+          <h3>MovieHub</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#how-it-works">How it works</a></li>
+            <li><a href="/login">Sign In</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h3>Connect with us in</h3>
+          <div class="social">
+            <a href="/">
+              <i class='fab fa-facebook ml-2'></i>
+            </a>
+            <a href="/">
+              <i class='fab fa-instagram'></i>
+            </a>
+            <a href="/">
+              <i class='fab fa-linkedin'></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h5 class="text-center">
+      Copyright © All rights reserved <b>MovieHub</b>
+    </h5>
+  </div>
+</div>
