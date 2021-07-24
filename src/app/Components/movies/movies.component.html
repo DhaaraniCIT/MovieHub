@@ -7,11 +7,11 @@
       <div class="col-sm-8">
         <h1 class="font-weight-bold" >Movies</h1>
       </div>
-      <div class="col-sm-4" *ngIf="isLoaded">
+      <div class="col-sm-4" *ngIf="isLoaded && !isError">
         <form name="searchForm" [formGroup]="searchForm">
           <div class="input-group mb-3">
             <input type="text" class="form-control" formControlName="searchCtrl" placeholder="Search" 
-            [ngClass]="{ 'is-invalid':searchForm.get('searchCtrl').touched && searchForm.get('searchCtrl').invalid}" placeholder="searchCtrl">
+            [ngClass]="{ 'is-invalid':searchForm.get('searchCtrl').touched && searchForm.get('searchCtrl').invalid}" placeholder="search">
             <div class="input-group-append">
               <button class="btn btn-dark" [disabled] = "!searchForm.valid" (click)="movieSearch();clicked=true" type="submit">Go</button>
             </div>
