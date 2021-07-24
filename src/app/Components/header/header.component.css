@@ -1,0 +1,33 @@
+nav>ul>li{
+    font-size: 18px;
+}
+nav > a{
+    display: flex;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+
+}
+nav > a:hover{
+    text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+}
+.header-color {
+    background-color: black;
+  }
+  .movies{
+      color: black;
+  }
+  .home ul li a{
+      color: white;
+  }
+  .movies ul li a{
+      color: black;
+  }

@@ -1,0 +1,25 @@
+.movie{
+    background-image:url('../../../assets/bg.jpg');
+    position:relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:fit-content;
+}
+.movies-section{
+    padding: 200px 0px 100px;
+}
+.card-text{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+.header-color {
+    background-color:white;
+  }
+.reload{
+    font-size: 50px;
+    cursor: pointer;
+}
